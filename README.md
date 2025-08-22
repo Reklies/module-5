@@ -1,5 +1,3 @@
-## Name: G.Ramanujam
-# Reg.No: 212224240129
 # EX-26-AREA-OF-RECTANGLE-USING- POINTER
 ## AIM
 To write a C Program to find area of rectangle using pointer.

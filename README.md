@@ -1,3 +1,5 @@
+## Name: G.Ramanujam
+# Reg.No: 212224240129
 # EX-26-AREA-OF-RECTANGLE-USING- POINTER
 ## AIM
 To write a C Program to find area of rectangle using pointer.
@@ -21,13 +23,11 @@ float area=(*len)*(*wid);
 printf("Area of rectangle = %f sq. units ", area);
 return 0;
 }
-
 ```
+
 ## OUTPUT
-	
-
-![m1](https://github.com/user-attachments/assets/9b642744-0001-4a2f-a886-7b7319399927)
-
+		       	
+![Screenshot 2025-05-01 211512](https://github.com/user-attachments/assets/d78637ee-113f-40e7-a4e5-33db1bcc7075)
 
 
 ## RESULT
@@ -73,9 +73,10 @@ free(str);
 return 0;
 }
 ```
+
 ## OUTPUT
 
-![m-2 (4)](https://github.com/user-attachments/assets/7f058483-999d-4fab-b31e-73858e24056e)
+![Screenshot 2025-05-01 211602](https://github.com/user-attachments/assets/53a23aa2-5c87-4474-914b-c10fa7c556ef)
 
 
 ## RESULT
@@ -100,29 +101,29 @@ To write a C Program to store the student information and display it using struc
 
 ## PROGRAM
 ```
-#include <stdio.h>
-struct Student {
-    int rollNumber;
-    char name[50];
-    float marks;
-};
-int main() {
-    struct Student s;
-    scanf("%d", &s.rollNumber);
-    scanf(" %[^\n]", s.name);
-    scanf("%f", &s.marks);
-    printf("Student Information\n");
-    printf("Roll Number : %d\n", s.rollNumber);
-    printf("Name : %s\n", s.name);
-    printf("Marks : %.2f\n", s.marks);
-    return 0;
+#include<stdio.h>
+struct student {
+ chsr name[50];
+int rollNumber;
+float marks;
 }
+int main() {
+ struct student student;
+scanf("%s", student.name);
+scanf("%d", &student.rollNumber);
+scanf("%f", &student.marks);
+printf("Displaying Information:\n);
+printf("Name" %s\n", student.name);
+printf("Roll number: %d\n",student.rollBumber);
+printf("Marks: %.1f\n",student.marks);
+return 0;
+}
+
 ```
 
 ## OUTPUT
 
-![m3](https://github.com/user-attachments/assets/925f5d6b-a660-402b-934a-30b12bcb6b8e)
-
+![Screenshot 2025-05-01 211649](https://github.com/user-attachments/assets/f22c13de-1895-4cc1-a0a4-56f0ca636bb5)
 
 
 ## RESULT
@@ -139,13 +140,11 @@ Thus the program to store the student information and display it using structure
 To write a C Program to read and store the data of 3 employees and calculate their Gross Salary using the concept of structure.
 
 ## ALGORITHM
-
 1.	Start the program.
 2.	Create an employee structure with name, id and salary details as members.
 3.	Using structure variable read the structure members.
 4.	Calculate the gross salary and print the details.
 5.	Stop the program.
-
 ## PROGRAM
 ```
 #include<stdio.h>
@@ -174,13 +173,11 @@ for(int i=0;,i<3;i++)
 printf("%d %s %.0f %.0f %.2f\n", emp[i].eno,emp[i].dept,emp[i].basicpay,em
 }
 }
-    
 ```
 
  ## OUTPUT
 
- ![m4](https://github.com/user-attachments/assets/3a60209c-3455-4630-bbaf-31b549b4c19e)
-
+ ![Screenshot 2025-05-01 211740](https://github.com/user-attachments/assets/090c3261-d9ee-455a-ac64-85514e45a092)
 
 
 ## RESULT
@@ -197,7 +194,7 @@ Thus the C program to read and store the data of 3 employees and calculate their
 Create a C program to calculate the total and average of student using structure.
 
 ## ALGORITHM 
-
+```
 Step 1: Start the program.
 Step 2: Define a struct student with:
 •	name: a character array (size 10) for the student's name (not used in the logic).
@@ -222,7 +219,7 @@ Step 6: Override Total (Hardcoded):
 Step 7: Output Loop (i = 0 to 1):
 •	Print s[i].total for each student.
 Step 8: End the program.
-
+```
 ## PROGRAM
 ```
 #include<studio.h>
@@ -264,8 +261,9 @@ return 0;
 
 ## OUTPUT
 
- 
-![m5](https://github.com/user-attachments/assets/a50bf42a-1b3f-454a-8ca0-0a4feac257d9)
+ ![Screenshot 2025-05-01 211934](https://github.com/user-attachments/assets/6f769ee0-d07e-4667-bdea-c561c3f07fa2)
+
+![Screenshot 2025-05-01 212001](https://github.com/user-attachments/assets/47422c26-3c67-42c8-a229-ca7c99cf2ddd)
 
 
 ## RESULT
